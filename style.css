@@ -1,0 +1,42 @@
+body {
+    background-color: #011627;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 2;
+    background-image: url(imagens/tumblr_a45af0a8a45e87c20ddd0249bf148e7b_4b4dd345_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+.quiz-container {
+    background-color: #d0f0ff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+.pergunta {
+    font-size: 1.2em;
+}
+.opcoes {
+    list-style-type: none;
+    padding: 0;
+}
+.opcoes li {
+    margin: 10px 0;
+}
+.botao {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao:hover {
+    background-color: #0056b3;
+}
